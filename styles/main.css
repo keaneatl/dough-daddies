@@ -1,0 +1,52 @@
+
+#navbar     {
+display: flex;
+flex-direction: row;
+background-color: transparent;
+justify-content: space-around;
+align-items: center;
+padding: 12px 0;
+margin-top: 15px;
+position: fixed;
+font-family: Cousine,monospace;
+border: 1px solid transparent;
+width: 70vw;
+align-self: center;
+border-radius: 5px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+min-width: 300px;
+}
+
+#header  {
+  display: flex;
+  flex-direction: column;
+  height: 150vh;
+
+}
+
+.leftul, .rightul {
+  
+}
+
+
+.navitm {
+  display: inline;
+  margin: 0 3vw 0 0;
+  
+  
+}
+
+.icons  {
+  display: inline;
+  margin: 0 2vw 0 0;
+}
+
+.iconimgs {
+  height: 20px;
+  width: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
