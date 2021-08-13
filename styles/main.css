@@ -8,6 +8,10 @@
   src: url('../fonts/big_noodle_titling.ttf');
 }
 
+@font-face{
+  font-family: Accelerate;
+  src: url('../fonts/Acceleration&Reaction.ttf');
+}
 
 #navbar     {
 display: flex;
@@ -26,7 +30,6 @@ border-radius: 5px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 min-width: 615px;
 overflow: visible;
-
 }
 
 #header  {
@@ -38,18 +41,12 @@ overflow: visible;
   overflow-y: visible;
 }
 
-.leftul, .rightul {
-  
-}
-
-
 .navitm {
   display: inline;
   margin: 0 0 0 3vw;
-  font-family: Overgrow;
+  font-family: Overgrow, sans-script;
   color: #DA7041;
   text-shadow: 0 0 17px rgb(218, 112, 65, 0.9);
-  
 }
 
 #logo{
@@ -84,7 +81,7 @@ a {
   margin: 45px 0 0 60px;
   font-size: 3rem;
   width: 300px;
-  font-family: Overgrow;
+  font-family: Overgrow, sans-script;
   color: #DA7041;
   text-shadow: 0 0 17px rgb(218, 112, 65, 0.9);
 }
@@ -96,19 +93,18 @@ a {
   font-size: 1.4rem;
   color: #EFEFEF;
   line-height: 0.9;
-  text-shadow: 0 0 17px rgb(218, 112, 65, 0.9);
-  font-family: BigNoodle;
+  text-shadow: 0 0 17px rgb(255, 255, 255, 0.6);
+  font-family: BigNoodle, sans-script;
 }
 
 #pizza  {
-
   height: 600px;
   width: 680px;
   align-self: center;
 }
 
-#customers  {
-  height: 800px;
+#menu  {
+  height: 400px;
   background-image: url('../images/customersbg.jpg');
   background-size: 100%;
   overflow-y: visible;
@@ -117,29 +113,63 @@ a {
   justify-content: space-evenly;
 }
 
+#dlmenu{
+  margin: 285px 0 0 0;
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  border: 0;
+  font-family: BigNoodle, sans-script;
+  font-size: 1.2rem;
+  color: white;
+  text-shadow: 0 0 17px rgb(255, 255, 255, 0.7);
+  background-color: #5B0A0C;
+}
+
+#customers{
+  background-color: #5B0A0C;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 500px;
+  width: 100%;
+}
+
 .squarehv2  {
-  margin: 360px 0 0 0;
-  padding: 5px;
+  margin: 120px 0 0 0;
   font-size: 3rem;
   width: 250px;
   height: 200px;
-  font-family: Overgrow;
+  font-family: Overgrow, sans-script;
   color: #DA7041;
-  background-color: rgb(0, 0, 0, 0.7);
- 
-  border-radius: 5px;
+  text-shadow: 0 0 17px rgb(218, 112, 65, 0.9);
+
 }
 
 .sqauredescv2  {
-  background-color: rgb(0, 0, 0, 0.7);
-  padding: 15px 25px 25px 20px;
-  margin: 360px 0 0 90px;
-  border-radius: 5px;
+  text-shadow: 0 0 17px rgb(255, 255, 255, 0.6);
+  margin: 120px 0 0 0;
   height: 300px;
   width: 600px;
   text-align: justify;
   font-size: 1.4rem;
   color: white;
   line-height: 1;
-  font-family: BigNoodle;
+  font-family: BigNoodle, sans-script;
+}
+
+#contact{
+  background-image: url('../images/footerbg.jpg');
+  background-size: 100%;
+  background-position-y: 60%;
+  height: 100%;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  font-family: Overgrow;
+  font-size: 1.2rem;
+  color: white;
+  text-shadow: 0 0 17px black;
 }
