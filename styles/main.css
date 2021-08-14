@@ -275,7 +275,7 @@ bottom: 5px;
   }
   
   .pizza  {
-  height: 600px;
+  height: 400px;
   width: 480px;
   margin-top: 60px;
   }
@@ -288,7 +288,7 @@ bottom: 5px;
 
 @media (max-width:520px){
     .pizza  {
-  height: 600px;
+  height: 300px;
   width: 380px;
   margin-top: 60px;
   }
@@ -328,5 +328,17 @@ bottom: 5px;
      margin-bottom: 0;
     margin-top: 175px;
     width: 280px
+  }
+  
+  .header{
+    height: 70vh;
+  }
+  
+  .customers{
+    height: 65vh;
+  }
+  
+  .menu{
+    height: 50vh;
   }
 }
