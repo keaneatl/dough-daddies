@@ -139,7 +139,7 @@ a {
 }
 
 .squarehv2  {
-  margin: 75px 0 0 0;
+  margin-top: 75px;
   font-size: 3rem;
   width: 250px;
   height: 200px;
@@ -284,4 +284,29 @@ bottom: 5px;
     margin: 320px 0 0 0;
   }
   
+}
+
+@media (max-width:520px){
+    .pizza  {
+  height: 600px;
+  width: 380px;
+  margin-top: 60px;
+  }
+  
+ .squaredescv2{
+    font-size: 1.25em;
+    width: 380px;
+    margin: 20px 0 40px 0;
+  }
+  
+  .squarehv2{
+    font-size: 2em;
+     margin-bottom: 0;
+    margin-top: 175px;
+  }
+  
+  .squaredesc{
+    font-size: 1.4em;
+    width: 380px;
+  }
 }
