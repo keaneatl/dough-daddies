@@ -201,7 +201,7 @@ height: 30vh;
 max-width: 400px;
 }
 .menu{
-min-height: 120px;
+min-height: 140px;
 height: 12vh;
 display: flex;
 justify-content: center;
@@ -231,7 +231,10 @@ bottom: 5px;
 }
 
 .botleftul{
-min-width: 140px;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+min-width: 150px;
 max-width: 135px;
 width: 30vw;
 height: 2.8vh;
@@ -239,7 +242,7 @@ min-height: 25px;
 }
   
 .botrightul{
-    max-width: 120px;
+max-width: 120px;
 min-width: 130px;
 width: 30vw;
 height: 3vh;
@@ -247,8 +250,8 @@ min-height: 28px;
 }
   
 .botnavitm{
-display: inline;
-padding: 0 1.2em 0 0;
+padding: 0 1.7em 0 0;
+margin: 0;
 }
 
 .boticons{
