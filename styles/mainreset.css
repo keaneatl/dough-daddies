@@ -213,12 +213,15 @@ margin: 18% 0 0 0;
 }
 
 .customers{
-padding: 1.3em;
+padding: 0.9em;
 }
 
 .squarehv2{
-margin: 5% 0 0 0;
-width: 550px;
+margin: 1.5% 0 0 0;
+}
+
+.squaredescv2{
+padding: 0.5em;
 }
 
 .bottomnav{
