@@ -3,12 +3,12 @@
   <p align="center">
     <strong>This is a product landing page for a business plan my friends and I made during freshman year. I figured it was a pretty cool idea so I made a fully responsive webpage for it</strong>
      <br /><br />
-    <a href="https://keaneatl.github.io/dough-daddies/"><strong>Live Preview »</strong></a>
+    <a href="https://keaneatl.github.io/dough-daddies/" target="_blank"><strong>Live Preview »</strong></a>
     <br /><br />
   </p>
 </p>
 
-<img src="/images/livepreview.png" alt="Dough Daddies Live Preview">
+<a href="https://keaneatl.github.io/dough-daddies/" target="_blank"><img src="/images/livepreview.png" alt="Dough Daddies Live Preview"></a>
 
 <h2 style="display: inline-block">Table of Contents</h2>
 <ol>
