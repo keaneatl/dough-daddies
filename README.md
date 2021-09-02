@@ -29,6 +29,7 @@
 ### Made With
 1. HTML
 2. CSS
+<br />
 <i>Note: I made sure to only use pure HTML and CSS for this project for practice purposes</i>
 
 ### Things I Learned
