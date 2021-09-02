@@ -1,9 +1,9 @@
-<p align="center">
+
 # Dough Daddies: My First Product Landing Page
 **This is a product landing page for a business plan my friends and I made during freshman year. I figured it was a pretty cool idea so I made a fully responsive webpage for it.**
 
 [LIVE PREVIEW »](https://keaneatl.github.io/dough-daddies/)
-</p>
+
 ## Table of Contents
 1. <a href="#about-the-project">About The Project</a>
     * <a href="#things-i-learned">Things I Learned</a>
