@@ -4,6 +4,8 @@
 
 [LIVE PREVIEW »](https://keaneatl.github.io/dough-daddies/)
 
+<a href="https://keaneatl.github.io/dough-daddies/">![Live Preview](/images/livepreview.png)</a>
+
 ## Table of Contents
 1. <a href="#about-the-project">About The Project</a>
     * <a href="#things-i-learned">Things I Learned</a>
